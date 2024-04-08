@@ -1,3 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.neural_network import MLPRegressor
+
 arquivo = np.load('teste3.npy')
 x = arquivo[0]
 y = np.ravel(arquivo[1])
